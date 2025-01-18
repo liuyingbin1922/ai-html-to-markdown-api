@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "node reader-service.js",
-    "dev": "nodemon reader-service.js"
+    "start": "node ./src/reader-service.js",
+    "dev": "nodemon ./src/reader-service.js"
   },
   "dependencies": {
     "axios": "^1.7.9",
